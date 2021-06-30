@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hazarda1/public_html/
+    - /home/hazarda1/public_html/test test1.file $DEPLOYPATH
